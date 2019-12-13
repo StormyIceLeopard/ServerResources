@@ -1,0 +1,15 @@
+main: net.blizzardcraft.ServerResources.ServerResourcesMain
+name: ServerResources
+version: 1.0
+description: This spigot plugin allows you to view/monitor your server's resources such as RAM and TPS.
+author: StormyIceLeopard
+website: www.blizzardcraft.net
+prefix: ServerResources
+commands:
+  sr:
+    description: Outputs the Server Resources into chat
+    usage: /sr
+permissions:
+  ServerResources.sr:
+    description: Allows /sr command
+    default: op
